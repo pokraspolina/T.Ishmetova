@@ -1,0 +1,582 @@
+<!<!DOCTYPE html>
+<html lang="ru">
+
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/bootstrap_lux.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1:1, maximum-scale=1, minimal-ui">
+  </head>
+  <body>
+    <div  id="call" class="navigation navbar-light">
+      <img style="margin-left: 0.1rem" src="img/call.svg">
+        <a class="nav-link" style="font-size: 16px; white-space: nowrap;" href="tel:+380662267743">
+          <span>+380 66 226 77 43</span></a>
+    </div>
+    <div class="navigation navbar-light" id="map">
+        <img src="img/geo_icon.svg">
+        <a class="nav-link nav-item" href="#geo" style="font-size: 16px; white-space: nowrap;">
+          <span>ул. Вышгородская 45а/2</span></a>
+    </div>
+    <div class="navigation navbar-light" id="time">
+      <img src="img/clock.svg">
+      <span style="font-size: 16px; white-space: nowrap; font-weight: 700; color: #000;" class="nav-link nav-item">9:00-21:00Пн-Вс</span>
+   </div>
+    <div id="container">
+      <div class="social navbar-light">
+         <a href="https://www.facebook.com/T.Ishmetova"  class="fb" target="_blank" title="Facebook" id="facebook"><img src="img/fb_icon.svg"></a>
+          <a href="https://instagram.com/t.ishmetova?igshid=14at7u6arnupv" class="fb" id="instagram" target="_blank"  title="Instagram"><img src="img/instagram_icon.svg"></a>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="title">T.Ishmetova</a>
+              
+              <!-- start collapsed navbar-->
+              <div class="navbar-header">
+                <button 
+                type="button" 
+                class="navbar-toggler collapsed" 
+                data-toggle="collapse" 
+                data-target="#main_navbar" 
+                aria-expanded="false"> <span class="navbar-toggler-icon"></span></button>
+              </div><!-- / collapsed navbar-->
+
+              <!-- start un-collapsed navbar-->
+              <div class="collapse navbar-collapse" id="main_navbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">О нас</a> </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#product">Услуги</a>
+                    </li>
+                    <li id="foto" class="nav-item">
+                      <a class="nav-link" href="#ourphoto">Наши фото</a>
+                  </li>
+              <li class="nav-item">
+                      <a class="nav-link" href="#contact">Контакты</a>
+                  </li>
+                  
+              </ul> 
+              </div><!-- / un-collapsed navbar-->
+          </div> <!-- /container -->
+        </nav>
+<div class="about-img-box">
+  <img src="img/SCREEN.jpg">
+  <a href="#product"><button  type="button" class=" btn btn-primary btn-lg btn-block">Услуги</button></a>
+</div> 
+
+<!-- ABOUT -->
+<section id="about" class="container-content">
+  
+    <h1 class="header">О нас</h1>
+    <div class="photo">
+      <img src="img/photo.jpg" class="photo-img">
+    
+    <p class="text">Философия красоты открывает двери в мир прекрасных преображений, вас встретят внимательные и дружественные администраторы, стилисты, визажисты, бровисты, доктора-косметологи, операторы LPG массажа, мастера ногтевой эстетики-подологи предоставят лучшие услуги по новейшим технологиям мировых брендов</p></div> 
+</section>
+<hr>
+
+<section id="product" class="container-content ">
+  <h1 class="header">Услуги</h1>   
+  <section class="row">
+    <div class="dropdown col-lg-4 col-md-6 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionone()" class=" btn btn-primary btn-lg btn-block">Мужские стрижки и укладки</button>
+      <div id="myDropdown" class="dropdown-content first">
+        <table class="table">
+          <tr class="dropdown-item"  >
+            <td>Мужская стрижка</td>
+            
+            <td><strong>400₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Оформление бороды</td>
+            
+            <td><strong>200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Мужская стрижка под насадку</td>
+            
+            <td><strong>200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Камуфлирование седины</td>
+            
+            <td><strong>800₴</strong></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+          <div class="dropdown col-lg-4 col-md-6 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionsecond()" class=" btn btn-primary btn-lg btn-block">Женские стрижки и укладки</button>
+      <div id="myDropdownsecond" class="dropdown-content second">
+        <table class="table">
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Стрижки</strong></td>
+            <td></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Женская стрижка</td>
+            
+            <td><strong>500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Стрижка челки (мытье головы)</td>
+            
+            <td><strong>350₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Наращивание волос</td>
+            
+            <td><strong>150гр (100$)</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Прикорневой объем 2-3ме</td>
+            
+            <td><strong>2300₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Завивка волос</td>
+            
+            <td><strong>2000-3500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Укладки</strong></td><td></td>
+            </tr>
+          <tr class="dropdown-item"  >
+            <td>Укладка класическая<br>
+              <span>(мытье, сушка, укладочные средства, браш)</span></td>
+            <td><strong>350₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Укладка сложная<br>
+              <span>(мытье, сушка, укладочные средства, браш, плойка)</span></td>
+            <td><strong>500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Укладка нарощенных волос<br>
+              <span>(мытье, сушка, укладочные средства, браш, плойка, утюжок)</span></td>
+            <td><strong>700₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Укладка (афро накрутка)<br>
+              <span>(мытье, сушка, укладочные средства, браш, плойка, утюжок)</span></td>
+            <td><strong>1000₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Вечерняя/свадебная прически<br>
+              <span>(мытье, сушка, укладочные средства, плойка, браш, плетения, шпильки, невидимки)</span></td>
+            <td><strong>1000-2500₴</strong></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+     <div class="dropdown col-lg-4 col-md-6 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionthird()" class=" btn btn-primary btn-lg btn-block">Детские стрижки и укладки</button>
+      <div id="myDropdownthird" class="dropdown-content third">
+        <table class="table">
+          <tr class="dropdown-item"  >
+            <td>Детская стрижка (до 12 лет)</td>
+            <td><strong>350₴</strong></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <div class="dropdown col-lg-4 col-md-6 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionfour()" class=" btn btn-primary btn-lg btn-block">Процедуры для волос</button>
+      <div id="myDropdownfour" class="dropdown-content four">
+        <table class="table">
+          <tr class="dropdown-item"  >
+            <td style="width:100%;">Smartbound</td>
+            <td><strong>500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;">La biosthetique обеpтывание</td>
+            <td><strong>1300-1500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Joico</td>
+            <td><strong>1100-1700₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Хна Philpmartin`s</td>
+            <td><strong>1200-1700₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;">Ампулы шелка + домашний уход</td>
+            <td><strong>600₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Счастье для волос Label<br>
+              <span>(пакет 5 процедур)</span></td>
+            <td><strong>8000₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Белок<br>
+              <span>(эффeкт 2-3 месяца)</span></td>
+            <td><strong>1900-3000₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Кератин<br>
+              <span>(эффeкт 2-3 месяца)</span></td>
+            <td><strong>2000-3500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Ламинирование</td>
+            <td><strong>800-1600₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;">Анатель перманентное выпрямление</td>
+            <td><strong>100-400₴</strong></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="dropdown col-lg-4 col-md-6 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionfive()" class=" btn btn-primary btn-lg btn-block">Окрашивание</button>
+      <div id="myDropdownfive" class="dropdown-content five">
+        <table class="table">
+          <tr class="dropdown-item" >
+            <td>Корень</td>
+            <td><strong>800-1000₴</strong></td>
+          </tr>
+          <tr class="dropdown-item">
+            <td colspan="2" style="text-align: center;">Однотонное окрашивание (корень + длина)</td>
+            </tr>
+            <tr class="dropdown-item">
+              <td style=" padding: 0.3rem;
+              padding-left: 24px;
+              border-top: 0px solid rgba(0, 0, 0, 0.05);">
+              <span>1-я длина</span></td>
+              <td style="padding: 0.3rem;
+              padding-right: 24px; 
+              border-top: 0px solid rgba(0, 0, 0, 0.05);">
+              <strong>1200₴</strong></td>
+            </tr>
+            <tr class="dropdown-item">
+              <td style="
+              padding: 0.3rem;
+              padding-left: 24px;
+              border-top: 0px solid rgba(0, 0, 0, 0.05);">
+              <span>2-я длина</span></td>
+              <td style="padding: 0.3rem; border-top: 0px solid rgba(0, 0, 0, 0.05); padding-right: 24px;"><strong>1600₴</strong></td>
+            </tr>
+            <tr class="dropdown-item"  >
+              <td style=" padding: 0.3rem;padding-left: 24px; border-top: 0px solid rgba(0, 0, 0, 0.05);"><span>3-я длина</span></td>
+              <td style="padding: 0.3rem; border-top: 0px solid rgba(0, 0, 0, 0.05); padding-right: 24px;"><strong>2200₴</strong></td>
+            </tr>
+            <tr class="dropdown-item"  >
+            <td>Сложное окрашивание<br>
+              <span>(омбре, балаяж, air touch, shatush)</span></td>
+            <td><strong>800-4000₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Мелирование частичное</td>
+            <td><strong>500-1500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;">Мелирование полноценное</td>
+            <td><strong>1500-3500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;" id="ton">Тонирование полуперманентным красителем</td>
+            <td><strong>1000-1500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;">Тонирование прямыми пигментами</td>
+            <td><strong>400₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Окрашивание своей краской</td>
+            <td><strong>700₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td style="white-space: normal;">Мелирование (натуральный волос) - La Biostetique</td>
+            <td><strong>1000-3000₴</strong></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="dropdown col-lg-4 col-md-6 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionnail()" class=" btn btn-primary btn-lg btn-block">Ногтевой сервис</button>
+      <div id="myDropdownnail" class="dropdown-content nail">
+        <table class="table">
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Маникюр</strong></td>
+            <td></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Маникюр европейский</td>
+            <td><strong>180₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Маникюр класический</td>
+            <td><strong>200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Маникюр комбинированый</td>
+            <td><strong>230₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Маникюр аппаратный</td>
+            <td><strong>250₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Маникюр мужской</td>
+            <td><strong>250₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Покрытие гель-лаком</td>
+            <td><strong>250₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Покрытие гель-лаком Комби</td>
+            <td><strong>300₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Покрытие гель-лаком френч, лунный</td>
+            <td><strong>350₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Снятие(лак, гель-лак)</td>
+            <td><strong>50₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Снятие(лак, гель-лак) без покрытия цветом</td>
+            <td><strong>100₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Дизайн бар ногтей</td>
+            <td><strong>30-50₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Покрытие обычным лаком</td>
+            <td><strong>50₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Укрепление базой</td>
+            <td><strong>150₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Наращивание ногтей</strong></td>
+            <td></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>1-3 длина</td>
+            <td><strong>530₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>4 длина</td>
+            <td><strong>750₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Коррекция нарощенных ногтей</strong></td>
+            <td></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>до 21 дня</td>
+            <td><strong>600₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>свыше 21 дня</td>
+            <td><strong>700₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Наращивание 1 ногтя</td>
+            <td><strong>70₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Ремонт 1 ногтя</td>
+            <td><strong>60₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Снятие нарщенных ногтей</td>
+            <td><strong>150₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Укрепление ногтей</td>
+            <td><strong>100₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Педикюр</strong></td>
+            <td></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Педикюр класический</td>
+            <td><strong>350₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Педикюр комбинированый</td>
+            <td><strong>400₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Педикюр аппаратный</td>
+            <td><strong>400₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Педикюр медицинский</td>
+            <td><strong>400₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Педикюр частичный (пальчики)</td>
+            <td><strong>250₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Работа с вросшим ногтем</td>
+            <td><strong>от 50₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Удаление стержневых мозолей от 1-5</td>
+            <td><strong>100-200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Педикюр мужской</td>
+            <td><strong>450₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td colspan="2" style="text-transform: uppercase; text-align: center;"><strong>Массаж</strong></td>
+            <td></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Массаж ног с тающей свечей</td>
+            <td><strong>100₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Массаж рук с тающей свечей</td>
+            <td><strong>80₴</strong></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="dropdown col-lg-12 col-md-12 col-sm-12">
+      <button type="button" data-toggle="dropdown" aria-haspopup="true" onclick="myFunctionsix()" class=" btn btn-primary btn-lg btn-block" >Визаж</button>
+      <div id="myDropdownsix" class="dropdown-content six">
+        <table class="table" id="vizag">
+          <tr class="dropdown-item"  >
+            <td>Форма бровей</td>
+            <td>30 мин / <strong>200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Окрашивание бровей</td>
+            <td>30 мин / <strong>200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Окрашивание ресниц</td>
+            <td>30 мин / <strong>200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Ламинирование ресниц</td>
+            <td>90 мин / <strong>1500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Ламинирование бровей</td>
+            <td>90 мин / <strong>1200₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Удаление волосков <i>(верхняя губа)</i></td>
+            <td>20 мин / <strong>100₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Макияж дневной</td>
+            <td>30 мин / <strong>500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Макияж вечерний</td>
+            <td>30 мин / <strong>500₴</strong></td>
+          </tr>
+          <tr class="dropdown-item"  >
+            <td>Макияж свадебный</td>
+            <td>60 мин / <strong>1200₴</strong></td>
+          </tr>
+        </table>
+  </section>
+
+</section>
+<hr>
+<!-- ABOUT END -->
+
+<section id='ourphoto' class="container-content">
+    <div class="row1 row">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image1"src="img/img_snow.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image2"src="img/img_mountains.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image3"src="img/img_lights.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image4"src="img/img1.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image5"src="img/1.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image6"src="img/2.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image7"src="img/3.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image8"src="img/4.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image9"src="img/5.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image10"src="img/6.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image11"src="img/7.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-2">
+        <img id="image12"src="img/8.jpg" class="crop-img" onclick="myFunction(this);">
+      </div>
+    </div>
+
+ <!--class="container"--> <div  style="text-align: center;">
+    <!--<span onclick="this.parentElement.style.display='none'" class="closebtn"><img src="img/x-mark.svg" style="height: 25px; width: 25px;"></span>-->
+    <button id="backward" type="button" class="slick-prev"><img src="img/left.svg"></button>
+    <img id="expandedImg">
+    <button id="forward" type="button" class="slick-next"><img src="img/right.svg"></button>
+    <div id="imgtext"></div>
+  </div>
+</section>
+
+<section>
+  <iframe id="geo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.244659474937!2d30.447523515267736!3d50.51101439088083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d36a8385f309%3A0xf18be365915cb03b!2zVElzaG1ldG92YSDQodCw0LvQvtC9INCa0YDQsNGB0Lg!5e0!3m2!1sru!2sua!4v1597225549104!5m2!1sru!2sua" width="100%" height="275" frameborder="0" style="height: 30em;" allowfullscreen="" aria-hidden="false" tabindex="0">
+ </iframe>
+   
+</section>
+
+<section id="contact">
+
+  <h1 class="header" style="color: #fff;">Контакты</h1>
+    <p class="footer_text">ул. Вышгородская 45а/2<br>
+    <a style="text-decoration: none;" id="call2" href="tel:+380662267743"><strong>
+          <span>+380 66 226 77 43</span></strong></a><br>
+       <span class="social2">
+         <a href="https://www.facebook.com/T.Ishmetova"  class="fb" target="_blank" title="Facebook" id="facebook"><img src="img/fb_GREY.svg"></a>
+          <a href="https://instagram.com/t.ishmetova?igshid=14at7u6arnupv" class="fb" id="instagram" target="_blank"  title="Instagram"><img src="img/instagram_GREY.svg"></a>
+      </span><br>
+      <span style="text-transform: uppercase;"><strong>Режим работы:</strong></span><br>9:00-21:00 Пн-Вс      
+    </p>
+    <div id="topNubex">
+    <img src="img/uparrow.svg" height="50px"/>
+  </div>
+</section>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  </body>
+  
+</html>

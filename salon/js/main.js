@@ -1,5 +1,15 @@
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+
+function validator(){
+  let i;
+  for (i = 0; i < dropdowns.length; i++) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
+      openDropdown.classList.remove('show');
+    }
+  }
+}
 function myFunctionone() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -8,13 +18,7 @@ function myFunctionone() {
 window.onclick = function(event) {
   if (!event.target.matches('.btn')) {
     var dropdowns = document.getElementsByClassName("first");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+    validator();
   }
 }
 function myFunctionsecond() {
@@ -25,13 +29,7 @@ function myFunctionsecond() {
 window.onclick = function(event) {
   if (!event.target.matches('.btn')) {
     var dropdowns = document.getElementsByClassName("second");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+    validator();
   }
 }
 
@@ -43,13 +41,7 @@ function myFunctionthird() {
 window.onclick = function(event) {
   if (!event.target.matches('.btn')) {
     var dropdowns = document.getElementsByClassName("third");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+    validator();
   }
 }
 function myFunctionfour() {
@@ -60,13 +52,7 @@ function myFunctionfour() {
 window.onclick = function(event) {
   if (!event.target.matches('.btn')) {
     var dropdowns = document.getElementsByClassName("four");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+    validator();
   }
 }
 
@@ -96,13 +82,7 @@ function myFunctionnail() {
 window.onclick = function(event) {
   if (!event.target.matches('.btn')) {
     var dropdowns = document.getElementsByClassName("nail");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+    validator();
   }
 }
 
@@ -114,13 +94,7 @@ function myFunctionsix() {
 window.onclick = function(event) {
   if (!event.target.matches('.btn')) {
     var dropdowns = document.getElementsByClassName("six");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+    validator();
   }
 }
 
